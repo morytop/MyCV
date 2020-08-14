@@ -1,57 +1,65 @@
-/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
   margin: 0;
+  font-family: 'Roboto';
+  font-size: 1em;
+  line-height: 1.8em;
 }
 
 article {
-  padding:0 1em;
+  padding: 0 1em;
 }
 
-section{
+section {
   margin: 1em;
   padding: 1em;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   margin: 0 auto;
 }
 
 header {
   padding: 2em;
   text-align: center;
-  /*background-image: url('sciezka');*/
+  background-image: url('./img/background-img.jpg');
+  background-size: cover;
+  background-position: fixed;
+  color: white;
 }
 
 header section {
   margin: 0 auto;
+  max-width: 640px;
 }
 
 header img {
-
+  border-radius: 50%;
+  max-width: 150px;
 }
 
 h1 {
   margin: 1em 0;
+  text-transform: uppercase;
 }
 
 main {
   max-width: 1140px;
 }
 
-.course {
-}
+.course {}
 
-.course .title {
-}
+.course .title {}
 
-.course .descrition {
-}
+.course .descrition {}
 
 .school span {
   color: #A7B8BF;
 }
 
 footer {
- padding: 1em;
+  padding: 1em;
 }
